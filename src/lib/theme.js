@@ -221,7 +221,7 @@ export default [
       ['==', 'meta', 'midpoint']],
     'paint': {
       'circle-radius': 3,
-      'circle-color': '#fbb03b'
+      'circle-color': '#aa7c31'
     }
   }
 
