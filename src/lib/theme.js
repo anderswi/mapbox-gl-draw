@@ -89,6 +89,17 @@ export default [
     }
   },
   {
+    'id': 'gl-draw-polygon-midpoint',
+    'type': 'circle',
+    'filter': ['all',
+      ['==', '$type', 'Point'],
+      ['==', 'meta', 'midpoint']],
+    'paint': {
+      'circle-radius': 4,
+      'circle-color': '#aa7c31'
+    }
+  },
+  {
     'id': 'gl-draw-polygon-and-line-vertex-stroke-inactive',
     'type': 'circle',
     'filter': ['all',
@@ -213,16 +224,4 @@ export default [
       'circle-color': '#404040'
     }
   },
-  {
-    'id': 'gl-draw-polygon-midpoint',
-    'type': 'circle',
-    'filter': ['all',
-      ['==', '$type', 'Point'],
-      ['==', 'meta', 'midpoint']],
-    'paint': {
-      'circle-radius': 3,
-      'circle-color': '#aa7c31'
-    }
-  }
-
 ];
