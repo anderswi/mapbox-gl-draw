@@ -24,17 +24,6 @@ export default [
     }
   },
   {
-    'id': 'gl-draw-polygon-midpoint',
-    'type': 'circle',
-    'filter': ['all',
-      ['==', '$type', 'Point'],
-      ['==', 'meta', 'midpoint']],
-    'paint': {
-      'circle-radius': 3,
-      'circle-color': '#fbb03b'
-    }
-  },
-  {
     'id': 'gl-draw-polygon-stroke-inactive',
     'type': 'line',
     'filter': ['all',
@@ -223,5 +212,17 @@ export default [
       'circle-radius': 5,
       'circle-color': '#404040'
     }
+  },
+  {
+    'id': 'gl-draw-polygon-midpoint',
+    'type': 'circle',
+    'filter': ['all',
+      ['==', '$type', 'Point'],
+      ['==', 'meta', 'midpoint']],
+    'paint': {
+      'circle-radius': 3,
+      'circle-color': '#fbb03b'
+    }
   }
+
 ];

@@ -202,6 +202,7 @@ DirectSelect.onMouseOut = function(state) {
 };
 
 DirectSelect.onTouchStart = DirectSelect.onMouseDown = function(state, e) {
+	console.log(e);
   if (isVertex(e)) return this.onVertex(state, e);
   if (isActiveFeature(e)) return this.onFeature(state, e);
   if (isMidpoint(e)) return this.onMidpoint(state, e);
