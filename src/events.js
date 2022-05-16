@@ -32,7 +32,7 @@ export default function(ctx) {
   };
 
   events.mousedrag = function(event) {
-    events.drag(event, endInfo => !isClick(mouseDownInfo, endInfo));
+    events.drag(event, endInfo => !isClick(mouseDownInfo, endInfo, {fineTolerance:1}));
   };
 
   events.touchdrag = function(event) {
