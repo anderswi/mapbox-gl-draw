@@ -1,7 +1,6 @@
 export const classes = {
-  CANVAS: 'mapboxgl-canvas',
-  CONTROL_BASE: 'mapboxgl-ctrl',
-  CONTROL_PREFIX: 'mapboxgl-ctrl-',
+  CONTROL_BASE: 'maplibre-ctrl',
+  CONTROL_PREFIX: 'maplibre-ctrl-',
   CONTROL_BUTTON: 'mapbox-gl-draw_ctrl-draw-btn',
   CONTROL_BUTTON_LINE: 'mapbox-gl-draw_line',
   CONTROL_BUTTON_POLYGON: 'mapbox-gl-draw_polygon',
@@ -9,7 +8,7 @@ export const classes = {
   CONTROL_BUTTON_TRASH: 'mapbox-gl-draw_trash',
   CONTROL_BUTTON_COMBINE_FEATURES: 'mapbox-gl-draw_combine',
   CONTROL_BUTTON_UNCOMBINE_FEATURES: 'mapbox-gl-draw_uncombine',
-  CONTROL_GROUP: 'mapboxgl-ctrl-group',
+  CONTROL_GROUP: 'maplibre-ctrl-group',
   ATTRIBUTION: 'mapboxgl-ctrl-attrib',
   ACTIVE_BUTTON: 'active',
   BOX_SELECT: 'mapbox-gl-draw_boxselect'
@@ -51,7 +50,8 @@ export const modes = {
   DRAW_POLYGON: 'draw_polygon',
   DRAW_POINT: 'draw_point',
   SIMPLE_SELECT: 'simple_select',
-  DIRECT_SELECT: 'direct_select'
+  DIRECT_SELECT: 'direct_select',
+  STATIC: 'static'
 };
 
 export const events = {
@@ -68,7 +68,6 @@ export const events = {
 
 export const updateActions = {
   MOVE: 'move',
-  CHANGE_PROPERTIES: 'change_properties',
   CHANGE_COORDINATES: 'change_coordinates'
 };
 
