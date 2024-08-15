@@ -1,4 +1,5 @@
 export const classes = {
+  CANVAS: 'maplibregl-canvas',
   CONTROL_BASE: 'maplibre-ctrl',
   CONTROL_PREFIX: 'maplibre-ctrl-',
   CONTROL_BUTTON: 'mapbox-gl-draw_ctrl-draw-btn',
