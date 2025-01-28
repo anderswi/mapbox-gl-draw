@@ -51,8 +51,7 @@ export const modes = {
   DRAW_POLYGON: 'draw_polygon',
   DRAW_POINT: 'draw_point',
   SIMPLE_SELECT: 'simple_select',
-  DIRECT_SELECT: 'direct_select',
-  STATIC: 'static'
+  DIRECT_SELECT: 'direct_select'
 };
 
 export const events = {
@@ -68,8 +67,9 @@ export const events = {
 };
 
 export const updateActions = {
-  MOVE: 'move',
-  CHANGE_COORDINATES: 'change_coordinates'
+  MOVE: "move",
+  CHANGE_PROPERTIES: "change_properties",
+  CHANGE_COORDINATES: "change_coordinates"
 };
 
 export const meta = {
