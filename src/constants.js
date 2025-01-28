@@ -67,9 +67,9 @@ export const events = {
 };
 
 export const updateActions = {
-  MOVE: "move",
-  CHANGE_PROPERTIES: "change_properties",
-  CHANGE_COORDINATES: "change_coordinates"
+  MOVE: 'move',
+  CHANGE_PROPERTIES: 'change_properties',
+  CHANGE_COORDINATES: 'change_coordinates'
 };
 
 export const meta = {
